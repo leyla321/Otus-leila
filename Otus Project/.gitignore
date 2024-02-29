@@ -15,6 +15,7 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 .idea/
+Otus Project.iml/
 
 ### NetBeans ###
 /nbproject/private/
