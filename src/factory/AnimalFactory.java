@@ -10,7 +10,7 @@ import exceptions.AnimalNotSupported;
 public class AnimalFactory {
 
     public Animal create(AnimalData animalData) throws AnimalNotSupported {
-        switch (animalData){
+        switch (animalData) {
             case CAT: {
                 return new Cat();
             }
@@ -20,7 +20,8 @@ public class AnimalFactory {
             case DUCK: {
                 return new Duck();
             }
+            default:
+                throw new AnimalNotSupported();
         }
-        throw new AnimalNotSupported(animalData);
     }
 }

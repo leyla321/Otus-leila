@@ -1,5 +1,5 @@
 package data;
 
 public enum AnimalData {
-    CAT, DOG, DUCK
+    CAT, DOG, DUCK;
 }
